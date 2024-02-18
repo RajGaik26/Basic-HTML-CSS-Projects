@@ -4,8 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <h1>Coding Survey Form</h1>
+    <form id="form">
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="text" id="email" placeholder="Enter your email" />
+        </div>
+        <div class="form-control">
+            <label for="age" id="label-age">Age</label>
+            <input type="text" id="age" placeholder="Enter your age" />
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">Choose your profession</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>Do you like Coding?</label>
+            <label for="coding-1">
+                <input type="radio" id="coding-1" name="code">Yes </input>
+            </label>
+            <label for="coding-2">
+                <input type="radio" id="coding-2" name="code">No </input>
+            </label>
+            <label for="coding-3">
+                <input type="radio" id="coding-3" name="code">Maybe </input>
+            </label>
+        </div>
+        <div class="form-control">
+            <label>Choose your favourite language
+                <small>(Check all that apply)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">C</input>
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">C++</input>
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">Java</input>
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Python</input>
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">JavaScript</input>
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">GO</input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Ruby</input>
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comments here"></textarea>
+        </div>
+        <button type="submit" value="submit">Submit</button>
+    </form>
 </body>
 </html>
