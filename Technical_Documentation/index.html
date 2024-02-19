@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-body">
+        <nav id="navbar">
+            <header>Documentation Menu</header>
+            <a href="#Intro" class="nav-link">Linux Intro</a>
+            <a href="#Intro" class="nav-link">Operating System Fundamentals</a>
+            <a href="#Intro" class="nav-link">Shell Scripting Fundamentals</a>
+            <a href="#Intro" class="nav-link">Directories And Files</a>
+            <a href="#Intro" class="nav-link">Create Directories And Files</a>
+            <a href="#Intro" class="nav-link">Memory,CPU and Disk Managment</a>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="Intro">
+                <header>
+                    Linux Intro
+                </header>
+                <p>
+                    - An operating system acts as a bridge between software and hardware. <br />
+                    - Without an operating system, software can't directly communicate with hardware.<br />
+                    - The user installs software on their server, which communicates with the operating system, which then communicates with the hardware.<br />
+                    - Examples of popular operating systems are Windows, Mac, and Linux.
+                    </p>
+                    <p>
+                    Why Linux is Popular <br />
+                    <br />
+                    - Linux is a free and open-source operating system.<br />
+                    - Linux is very secure and does not require antivirus software.<br />
+                    - Linux is fast and reliable, which is important for production systems.<br />
+                    - Popular Linux distributions include Ubuntu, CentOS, and Debian.
+                </p>
+            </section>
+            <section class="main-section" id="Operating">
+                <header>
+                    Operating System Fundamentals
+                </header>
+                <p>
+                    - Operating system is responsible for establishing communication between hardware and software<br />
+                    - Linux is a popular operating system due to its free, secure, and fast nature<br />
+                    - Linux operating system architecture includes kernel, system libraries, compilers, user processes, and system software<br />
+                    - Kernel has primary responsibilities including device management, memory management, process management, and handling system calls
+                </p>
+            </section>
+            <section class="main-section" id="Shell">
+                <header>
+                    Shell Scripting Fundamentals
+                </header>
+                <p>
+                    - Shell is a way to talk to the operating system <br />
+                    - Shell commands are used to interact with the Linux operating system <br />
+                    - Most servers default to a shell environment <br />
+                    - Shell commands are common across different Linux distributions <br />
+                    - Shell commands are used to create files, navigate through folders, and perform other tasks on the operating system.
+                </p>
+            </section>
+            <section class="main-section" id="Directories">
+                <header>
+                    Directories And Files
+                </header>
+                <p>
+                    - To see the files and folders in a directory, use the command `ls`. <br />
+                    - To see the present working directory, use the command `pwd`.<br />
+                    - To change the directory, use the command `cd`.<br />
+                    - To go up one directory, use the command `cd ..`.<br />
+                    - To list all files and folders with their properties, use the command `ls -ltr`.
+                </p>
+            </section>
+            <section class="main-section" id="CreateFiles">
+                <header>
+                    Create Directories And Files
+                </header>
+                <p>
+                    - To create a file, use the command `touch` followed by the file name.<br />
+                    - To write into a file, use the command `echo` followed by the text to be written and redirect the output to the file using the `>` operator.<br />
+                    - To print the contents of a file, use the command `cat` followed by the file name.<br />
+                    - To create a directory, use the command `mkdir` followed by the directory name.<br />
+                    - To remove a file, use the command `rm` followed by the file name.<br />
+                    - To remove a directory, use the command `rm -r` followed by the directory name.
+                </p>
+            </section>
+            <section class="main-section" id="Managment">
+                <header>
+                    Memory,CPU and Disk Managment
+                </header>
+                <p>
+                    - To check memory usage, use the command `free`.<br />
+                    - To check CPU usage, use the command `nproc`.<br />
+                    - To check disk usage, use the command `df`.<br />
+                    - To view all of these details in one place, use the command `top`.
+                </p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
